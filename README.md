@@ -23,6 +23,12 @@
 
 ### Make an EXE
 
+
+```bash
+$(SolutionDir)bin\$(Configuration)-$(Platform)\$(ProjectName)\
+$(SolutionDir)bin-int\(ShortProjectName)\$(Platform)\$(Configuration)\
+```
+
 ```bash
 g++ main.cpp -o main.exe
 ```
