@@ -21,13 +21,14 @@
 
 # Acacia-GameEngine
 
-### Make an EXE
-
+### Project Setup:
 
 ```bash
 $(SolutionDir)bin\$(Configuration)-$(Platform)\$(ProjectName)\
 $(SolutionDir)bin-int\(ShortProjectName)\$(Platform)\$(Configuration)\
 ```
+
+### Make an EXE
 
 ```bash
 g++ main.cpp -o main.exe
